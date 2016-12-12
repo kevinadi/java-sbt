@@ -10,6 +10,6 @@ autoScalaLibrary := false
 
 libraryDependencies ++= Seq(
     "org.scalatest" %% "scalatest" % "3.0.1",
-    "org.scalamock" %% "scalamock-scalatest-support" % "3.2.2"
+    "org.scalacheck" %% "scalacheck" % "1.13.4" % "test"
 )
 

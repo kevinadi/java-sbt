@@ -8,6 +8,6 @@ object ScalaFibs {
     }
 
     def num(n: Int): BigInt = {
-        fibs(n - 1)
+        if (n - 1 >= 0) fibs(n - 1) else 0
     }
 }
